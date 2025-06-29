@@ -1,9 +1,12 @@
+package com.example.shared
+
 import android.app.TimePickerDialog
+import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import android.widget.Button
-import android.widget.TextView
-import android.widget.TimePicker
+import android.os.Handler
+import android.os.Looper
+import android.view.View
+import android.widget.*
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,14 +15,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val timeTextView = findViewById<TextView>(R.id.timeTextView)
-        val pickTimeButton = findViewById<TimePicker>(R.id.pickTimeButton)
+        val pickTimeButton = findViewById<Button>(R.id.pickTimeButton)
 
         pickTimeButton.setOnClickListener {
             val calendar = Calendar.getInstance()
-            val hour = calendar.get(Calendar.HOUR_OF_DAY)
+            val hour = calendar.get(Calendar.HOUR_OFDAY)
             val minute = calendar.get(Calendar.MINUTE)
 
-            TimePickerDialog(this, { _, selectedHour, selectedMinute ->
+            TimePickerDialog(this, { , selectedHour, selectedMinute ->
                 val amPm = if (selectedHour >= 12) "PM" else "AM"
                 val hourFormatted = if (selectedHour % 12 == 0) 12 else selectedHour % 12
                 val minFormatted = String.format("%02d", selectedMinute)
