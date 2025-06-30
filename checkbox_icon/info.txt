@@ -1,0 +1,2 @@
+
+create new directory under "res" called "color" and create a resource file "checkbox_icon_tint.xml"
