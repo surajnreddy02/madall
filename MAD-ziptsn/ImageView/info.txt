@@ -1,0 +1,1 @@
+Update res>values>strings.xml

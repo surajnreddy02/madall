@@ -1,0 +1,2 @@
+res>color>checkbox_icon_tint.xml
+add content into checkbox_icon_tint.xml
