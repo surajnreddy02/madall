@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textColor="#0DAF14"
+        android:text="Choose a course"
+        android:textSize="15pt"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp">
+
+        <RadioButton
+            android:id="@+id/dm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data mining" />
+
+        <RadioButton
+            android:id="@+id/cc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cloud COmputing" />
+
+        <RadioButton
+            android:id="@+id/cn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="computer networks 1" />
+
+        <RadioButton
+            android:id="@+id/seoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software engineering and object oriented modelling" />
+
+        <RadioButton
+            android:id="@+id/mad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile app dev" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/purple_200"
+        android:text="Submit" />
+
+</LinearLayout>

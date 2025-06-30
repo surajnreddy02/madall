@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/abc"
+        android:title="open"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/abc2"
+        android:title="search"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/abc3"
+        android:title="exit"
+        app:showAsAction="never"/>
+</menu>

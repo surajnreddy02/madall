@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:text="Add Student"
+        android:onClick="btn_click" />
+    <Button
+        android:id="@+id/btndel"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:text="Delete Student"
+        android:onClick="btn_click" />
+
+    <Button
+        android:id="@+id/btnupd"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="216dp"
+        android:text="Update Student"
+        android:onClick="btn_click" />
+
+    <Button
+        android:id="@+id/btnlis"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnupd"
+        android:layout_centerHorizontal="true"
+        android:onClick="btn_click"
+        android:text="List Students" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="302dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/btnlis"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

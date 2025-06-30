@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="red"
+        android:background="#F44336"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="orange"
+        android:background="#FF5722"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yellow"
+        android:background="#FFEB3B"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="green "
+        android:textAlignment="gravity"
+        android:layout_marginLeft="155dp"
+        android:layout_below="@id/t2"
+        />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blue"
+        android:background="#00BCD4"
+        android:textAlignment="gravity"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/t3"
+        android:layout_marginLeft="190dp"
+        />
+
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="217dp"
+        android:background="#673AB7"
+        android:text="indigo"
+        android:layout_below="@id/t2"
+        />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Violet"
+        android:background="#9C27B0"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

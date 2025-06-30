@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/teal_700"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="290dp"
+        android:layout_height="187dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="166dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image is shown"
+        tools:layout_editor_absoluteX="156dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+
+
+</LinearLayout>

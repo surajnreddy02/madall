@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/ic_baseline_unfold_less_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="SETTINGS"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_baseline_label_24"
+                android:title="ABOUT"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="EXIT"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
